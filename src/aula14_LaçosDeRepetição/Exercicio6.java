@@ -15,9 +15,9 @@ public class Exercicio6 {
 			tot += num;			
 		}while(num != 0);
 		cont -= 1;
-		double media = tot / cont;		
+		double media = tot / cont;
 		System.out.println("=================");
-		System.out.printf("SOMA: %d\nMEDIA: %d", tot, media);
+		System.out.printf("SOMA: %d\nMEDIA: %.2f", tot, media );
 	}
 
 }
