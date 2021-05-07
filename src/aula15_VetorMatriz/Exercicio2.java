@@ -20,9 +20,7 @@ public class Exercicio2 {
 			if(vet[i] % 2 == 0) {
 				somaPar += vet[i];				
 				System.out.print(vet[i] + " ");		
-			}
-		
-	
+			}	
 		}
 		System.out.print("| Soma dos números pares: " + somaPar);
 		System.out.print("\nNumeros impares sorteados: ");

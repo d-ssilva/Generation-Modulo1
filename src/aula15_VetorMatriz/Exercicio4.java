@@ -83,8 +83,8 @@ public class Exercicio4 {
 					break;
 				default:
 					System.out.println("Número Inválido!");
-				break;
-			}
+				break;			
+			}			
 		}		
 	}
 }
