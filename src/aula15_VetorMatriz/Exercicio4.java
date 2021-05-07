@@ -4,7 +4,7 @@ public class Exercicio4 {
 
 	public static void main(String[] args) {
 		Random rn = new Random();
-		Scanner l = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 		// TODO Auto-generated method stub
 		int mat1[][] = new int [2][2];
 		int mat2[][] = new int [2][2];
@@ -33,7 +33,7 @@ public class Exercicio4 {
 		System.out.println("[5] - para sair");
 		System.out.println("========================");
 		System.out.print("Digite aqui -> ");
-		opc = l.nextInt();
+		opc = ler.nextInt();
 		while(opc == 1 || opc == 2 || opc == 3 || opc == 4){
 			switch (opc) {
 				case 1:
@@ -58,7 +58,7 @@ public class Exercicio4 {
 					break;
 				case 3:
 					System.out.print("Número: ");
-					int CONSTANTE = l.nextInt();
+					int CONSTANTE = ler.nextInt();
 					for (int l1 = 0; l1 < 3 ; l1++) {
 						System.out.println();
 						for (int c = 0; c < 3 ; c++) {
