@@ -5,7 +5,6 @@ public class Exercicio4 {
 	public static void main(String[] args) {
 		Random rn = new Random();
 		Scanner ler = new Scanner(System.in);
-		// TODO Auto-generated method stub
 		double mat1[][] = new double [2][2];
 		double mat2[][] = new double [2][2];
 		int opc;
@@ -83,8 +82,6 @@ public class Exercicio4 {
 				default:
 					System.out.println("Número Inválido!");
 				break;			
-			}			
-		}
-			
-	}
+		}			
+	}	
 }
