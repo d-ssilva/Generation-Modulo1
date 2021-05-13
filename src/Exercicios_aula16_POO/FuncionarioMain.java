@@ -1,4 +1,4 @@
-package Exercicios_aula16_POO;
+package exercicios_aula16_POO;
 
 public class FuncionarioMain {
 

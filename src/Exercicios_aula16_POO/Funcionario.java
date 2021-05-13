@@ -1,4 +1,4 @@
-package Exercicios_aula16_POO;
+package exercicios_aula16_POO;
 import java.util.*;
 public class Funcionario {
 	Scanner input = new Scanner(System.in);
