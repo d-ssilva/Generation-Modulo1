@@ -18,6 +18,7 @@ public class Exercicio6 {
 		double media = tot / cont;
 		System.out.println("=================");
 		System.out.printf("SOMA: %d\nMEDIA: %.2f", tot, media );
+		l.close();
 	}
 }
 

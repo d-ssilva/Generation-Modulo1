@@ -52,6 +52,7 @@ public class Exercicio4 {
 				+ "• Número de pessoas calmas com menos de 18 anos: %d"
 				+ "\n• TOTAL CADASTRADOS: %d \r\n", contCalmo, contMN, contHA,
 				contOC, cont40, cont18, totg);
+		l.close();
 	}
 
 }

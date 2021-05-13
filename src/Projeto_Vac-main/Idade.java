@@ -1,6 +1,7 @@
-package Projeto_Vac;
-import java.util.*;
-public class Idade extends Pessoa{
+package Project_Vac;
+
+public class Idade extends Pessoa implements Condicao_Vac{
+	
 	
 	private int idade;
 	int resultado;
@@ -13,25 +14,26 @@ public class Idade extends Pessoa{
 		this.idade = idade;
 	}
 	
-	public int condicaoIdade(int i) {
+	@Override
+	public int condicao(int i) {
 		
-		if(i >= 60 && i <= 64) 
+		if(i >=10 && i <= 19) 
 		{
 			resultado = 1;
 		}
-		if (i >= 65 && i <=70 )
+		else if (i >=20 && i <=29 )
 		{
 			resultado = 2;
 		}
-		if (i >= 71 && i <= 75)
+		else if (i >= 30 && i <= 39)
 		{
 			resultado = 3;
 		}
-		if (i >= 76 && i <= 80)
+		else if (i >=49 && i <= 49)
 		{
 			resultado = 4;
 		}
-		if(i > 80) 
+		else if(i >= 50 && i <=59 ) 
 		{
 			resultado = 5;
 		}
@@ -41,4 +43,5 @@ public class Idade extends Pessoa{
 		}
 		return resultado;	
 	}	
+
 }

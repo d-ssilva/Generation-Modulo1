@@ -21,6 +21,7 @@ public class Exercicio3 {
 		System.out.println("==================================");
 		System.out.printf("Total de pessoas acima de 50 anos: %d", tot50);
 		System.out.printf("\nTotal de pessoas abaixo de 21 anos: %d", tot21);
+		l.close();
 	}
 
 }

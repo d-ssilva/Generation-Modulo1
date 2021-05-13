@@ -13,10 +13,13 @@ public class Exercicio2 {
 			}
 			else{
 				nI += 1;
-			}			
+			}
+			l.close();
 		}
 		System.out.println("====================");
 		System.out.printf("PARES: %d\nIMPARES: %d", nP, nI);
+		
 	}
+	
 
 }

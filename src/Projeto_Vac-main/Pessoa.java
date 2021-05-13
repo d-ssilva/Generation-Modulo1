@@ -1,7 +1,7 @@
-package Projeto_Vac;
+package Project_Vac;
 
 public class Pessoa {
-	
+
 	private String nome;
 	private String endereço;
 	
@@ -22,4 +22,5 @@ public class Pessoa {
 	{
 		
 	}
+
 }

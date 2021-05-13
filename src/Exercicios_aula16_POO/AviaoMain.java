@@ -29,6 +29,7 @@ public class AviaoMain {
 		
 		
 		av.Imprimirvalores();
+		input.close();
 	}
 
 }

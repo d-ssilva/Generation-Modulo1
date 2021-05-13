@@ -21,6 +21,7 @@ public class ClienteMain {
 		cl.setIdade(idade);
 		cl.imprimirNome();
 		cl.imprimirIdade();
+		input.close();
 	}
 
 }

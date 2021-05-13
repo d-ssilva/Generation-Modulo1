@@ -17,7 +17,7 @@ public class Exercicio5 {
 		}while(num != 0);
 		System.out.println("=================");
 		System.out.println("SOMA: " + tot);
-	
+		l.close();
 	}
 
 }
