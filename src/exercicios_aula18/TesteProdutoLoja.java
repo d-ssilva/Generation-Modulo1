@@ -14,7 +14,7 @@ public class TesteProdutoLoja {
 	ProdutosLoja p4 = new ProdutosLoja("Desodorante", 3);
 	
 	
-	Set<ProdutosLoja> listaProdutos = new SetProdutosLoja<>();
+	Set<ProdutosLoja> listaProdutos = new SetProdutosLoja;
 	
 	System.out.println("|===================================|");
 	System.out.println("Quantos produtos serão cadastrados: ");
@@ -27,7 +27,7 @@ public class TesteProdutoLoja {
 		System.out.println("Quantidade: ");
 		int quant = ler.nextInt();
 		
-		listaProdutos.add(nomeproduto, quant);
+		p1.add(nomeproduto, quant);
 	}	
 
 	for (int i = 0; i <= cont; i ++) 

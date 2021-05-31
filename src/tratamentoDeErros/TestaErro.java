@@ -6,7 +6,10 @@ public class TestaErro {
 		int[] vetor = new int[4];
 		
 		System.out.println("Antes da exception!");
+		try {
 		vetor[4] = 1;
-		System.out.println("Após a exception!");
+		}catch(ArrayIndexOutOfBoundsException){
+			System.out.println("Após a exception!");
+		}
 	}
 }
